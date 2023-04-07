@@ -10,6 +10,6 @@ import cucumber.api.junit.Cucumber;
 glue = {"classpath:com.tutorialsninja.automation.stepdef" }, 
 plugin = {"html:target/cucmber_html_report" }, 
 tags = { "@Register", "@One" })
-public class Runner {
+public class TestRunner {
 
 }
