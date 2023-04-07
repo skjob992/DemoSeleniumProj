@@ -16,6 +16,7 @@ public class PropertyFileReader implements ConfigurationReader{
 		properties=new Properties();
 		try {
 			properties.load(PathHelper.getInputStreamResourcePath("/src/main/resources/ConfigurationFile/config.properties"));
+			//properties.load("D:\\Selenium\\GitHubRepos\\DemoSeleniumProj\\src\\main\\resources\\ConfigurationFile\\config.properties"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
